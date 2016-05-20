@@ -16,11 +16,62 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="d1A-6I-1xK">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="sJR-Nb-gyl">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="sJR-Nb-gyl" id="NOf-CW-Ytt">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="ngu-X7-5D4"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="LV6-o8-l0t"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="d1A-6I-1xK" secondAttribute="trailing" id="4NQ-Qy-CRY"/>
+                            <constraint firstItem="d1A-6I-1xK" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="Tni-x3-L29"/>
+                            <constraint firstItem="d1A-6I-1xK" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="wwd-An-zyl"/>
+                            <constraint firstItem="d1A-6I-1xK" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="z9k-4i-dLx"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="d1A-6I-1xK"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="4NQ-Qy-CRY"/>
+                                <exclude reference="Tni-x3-L29"/>
+                                <exclude reference="wwd-An-zyl"/>
+                                <exclude reference="z9k-4i-dLx"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="d1A-6I-1xK"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="4NQ-Qy-CRY"/>
+                                <include reference="Tni-x3-L29"/>
+                                <include reference="wwd-An-zyl"/>
+                                <include reference="z9k-4i-dLx"/>
+                            </mask>
+                        </variation>
                     </view>
+                    <connections>
+                        <outlet property="homeTable" destination="d1A-6I-1xK" id="v6I-KS-4L8"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="864" y="372"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="bdp-OY-81D">
@@ -31,13 +82,14 @@
                         <viewControllerLayoutGuide type="bottom" id="QrU-v2-WRu"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="jRq-pP-Di4">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HPJ-el-7tr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1069.5" y="366"/>
+            <point key="canvasLocation" x="1599" y="372"/>
         </scene>
     </scenes>
 </document>
