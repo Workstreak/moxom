@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA5A6B571CF7FB25000E62F8 /* VideoCutter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5A6B551CF7FB25000E62F8 /* VideoCutter.swift */; };
+		AA5A6B581CF7FB25000E62F8 /* VideoSplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5A6B561CF7FB25000E62F8 /* VideoSplashViewController.swift */; };
+		AA5A6B5A1CF8038A000E62F8 /* Strokkur_3.mov in Resources */ = {isa = PBXBuildFile; fileRef = AA5A6B591CF8038A000E62F8 /* Strokkur_3.mov */; };
+		AA5A6B611CF81D80000E62F8 /* btnRegister.png in Resources */ = {isa = PBXBuildFile; fileRef = AA5A6B5C1CF81D80000E62F8 /* btnRegister.png */; };
+		AA5A6B621CF81D80000E62F8 /* btnSignin.png in Resources */ = {isa = PBXBuildFile; fileRef = AA5A6B5D1CF81D80000E62F8 /* btnSignin.png */; };
+		AA5A6B631CF81D80000E62F8 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA5A6B5E1CF81D80000E62F8 /* Default-568h@2x.png */; };
+		AA5A6B641CF81D80000E62F8 /* Museo500-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = AA5A6B5F1CF81D80000E62F8 /* Museo500-Regular.otf */; };
+		AA5A6B651CF81D80000E62F8 /* test.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = AA5A6B601CF81D80000E62F8 /* test.mp4 */; };
+		AA5A6B671CF8235A000E62F8 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5A6B661CF8235A000E62F8 /* HomeViewController.swift */; };
 		AAE8F32E1CEC21E700F88B6C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE8F32D1CEC21E700F88B6C /* AppDelegate.swift */; };
 		AAE8F3301CEC21E700F88B6C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE8F32F1CEC21E700F88B6C /* ViewController.swift */; };
 		AAE8F3331CEC21E800F88B6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAE8F3311CEC21E800F88B6C /* Main.storyboard */; };
@@ -34,6 +43,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AA5A6B551CF7FB25000E62F8 /* VideoCutter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoCutter.swift; sourceTree = "<group>"; };
+		AA5A6B561CF7FB25000E62F8 /* VideoSplashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoSplashViewController.swift; sourceTree = "<group>"; };
+		AA5A6B591CF8038A000E62F8 /* Strokkur_3.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = Strokkur_3.mov; sourceTree = "<group>"; };
+		AA5A6B5C1CF81D80000E62F8 /* btnRegister.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btnRegister.png; sourceTree = "<group>"; };
+		AA5A6B5D1CF81D80000E62F8 /* btnSignin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btnSignin.png; sourceTree = "<group>"; };
+		AA5A6B5E1CF81D80000E62F8 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		AA5A6B5F1CF81D80000E62F8 /* Museo500-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Museo500-Regular.otf"; sourceTree = "<group>"; };
+		AA5A6B601CF81D80000E62F8 /* test.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = test.mp4; sourceTree = "<group>"; };
+		AA5A6B661CF8235A000E62F8 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		AAE8F32A1CEC21E700F88B6C /* moxom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = moxom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAE8F32D1CEC21E700F88B6C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AAE8F32F1CEC21E700F88B6C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -74,10 +92,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AA5A6B541CF7FB25000E62F8 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				AA5A6B591CF8038A000E62F8 /* Strokkur_3.mov */,
+				AA5A6B551CF7FB25000E62F8 /* VideoCutter.swift */,
+				AA5A6B561CF7FB25000E62F8 /* VideoSplashViewController.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		AA5A6B5B1CF81D80000E62F8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AA5A6B5C1CF81D80000E62F8 /* btnRegister.png */,
+				AA5A6B5D1CF81D80000E62F8 /* btnSignin.png */,
+				AA5A6B5E1CF81D80000E62F8 /* Default-568h@2x.png */,
+				AA5A6B5F1CF81D80000E62F8 /* Museo500-Regular.otf */,
+				AA5A6B601CF81D80000E62F8 /* test.mp4 */,
+			);
+			name = Resources;
+			path = moxom/Resources;
+			sourceTree = "<group>";
+		};
 		AAE8F3211CEC21E700F88B6C = {
 			isa = PBXGroup;
 			children = (
 				AAE8F32C1CEC21E700F88B6C /* moxom */,
+				AA5A6B5B1CF81D80000E62F8 /* Resources */,
+				AA5A6B541CF7FB25000E62F8 /* Source */,
 				AAE8F3411CEC21E800F88B6C /* moxomTests */,
 				AAE8F34C1CEC21E800F88B6C /* moxomUITests */,
 				AAE8F32B1CEC21E700F88B6C /* Products */,
@@ -99,6 +142,7 @@
 			children = (
 				AAE8F32D1CEC21E700F88B6C /* AppDelegate.swift */,
 				AAE8F32F1CEC21E700F88B6C /* ViewController.swift */,
+				AA5A6B661CF8235A000E62F8 /* HomeViewController.swift */,
 				AAE8F3311CEC21E800F88B6C /* Main.storyboard */,
 				AAE8F3341CEC21E800F88B6C /* Assets.xcassets */,
 				AAE8F3361CEC21E800F88B6C /* LaunchScreen.storyboard */,
@@ -229,8 +273,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA5A6B641CF81D80000E62F8 /* Museo500-Regular.otf in Resources */,
 				AAE8F3381CEC21E800F88B6C /* LaunchScreen.storyboard in Resources */,
+				AA5A6B5A1CF8038A000E62F8 /* Strokkur_3.mov in Resources */,
+				AA5A6B621CF81D80000E62F8 /* btnSignin.png in Resources */,
+				AA5A6B611CF81D80000E62F8 /* btnRegister.png in Resources */,
 				AAE8F3351CEC21E800F88B6C /* Assets.xcassets in Resources */,
+				AA5A6B631CF81D80000E62F8 /* Default-568h@2x.png in Resources */,
+				AA5A6B651CF81D80000E62F8 /* test.mp4 in Resources */,
 				AAE8F3331CEC21E800F88B6C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,8 +306,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA5A6B671CF8235A000E62F8 /* HomeViewController.swift in Sources */,
+				AA5A6B571CF7FB25000E62F8 /* VideoCutter.swift in Sources */,
 				AAE8F3301CEC21E700F88B6C /* ViewController.swift in Sources */,
 				AAE8F32E1CEC21E700F88B6C /* AppDelegate.swift in Sources */,
+				AA5A6B581CF7FB25000E62F8 /* VideoSplashViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,6 +537,7 @@
 				AAE8F3541CEC21E800F88B6C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AAE8F3551CEC21E800F88B6C /* Build configuration list for PBXNativeTarget "moxomTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +546,7 @@
 				AAE8F3571CEC21E800F88B6C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AAE8F3581CEC21E800F88B6C /* Build configuration list for PBXNativeTarget "moxomUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +555,7 @@
 				AAE8F35A1CEC21E800F88B6C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
